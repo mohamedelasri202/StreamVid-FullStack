@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-netflix-red: ;
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
